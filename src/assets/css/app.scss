@@ -1,0 +1,24 @@
+.app {
+  background-image: url('./../img/bg.png');
+  background-repeat: repeat;
+  background-position: center;
+  padding: 80px;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 991px) {
+    padding: 60px 20px;
+  }
+}
+.app-title {
+  font-family: 'Exo';
+  margin-bottom: 24px;
+  font-weight: 100;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 1px 1px #000000;
+}
