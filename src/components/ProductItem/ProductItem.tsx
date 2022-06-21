@@ -1,5 +1,5 @@
 import React, { FC, useState } from 'react';
-import { IProductItem } from '../../data/products';
+import { IProductItem } from '../../types/productItem';
 import getEndings from '../../utils/getEndings';
 import './_ProductItem.scss';
 

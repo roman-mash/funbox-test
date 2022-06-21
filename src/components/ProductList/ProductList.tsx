@@ -1,5 +1,6 @@
 import React, { FC, useEffect, useState } from 'react';
-import productList, { IProductItem } from '../../data/products';
+import productList from '../../data/products';
+import { IProductItem } from '../../types/productItem';
 import ProductItem from '../ProductItem/ProductItem';
 import './_ProductList.scss';
 
